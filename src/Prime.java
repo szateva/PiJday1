@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/*
+This code checks if a user input is a prime number or not.
+ */
+
 public class Prime {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
