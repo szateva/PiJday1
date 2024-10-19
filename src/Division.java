@@ -18,11 +18,9 @@ public class Division {
     }
 
     public static int remainderDiv(int num1, int num2) {
-        int quotient = 0;
         int remainder = num1;
         while (num2 != 0 && remainder >= num2) {
             remainder = remainder - num2;
-            quotient++;
         }
         return remainder;
     }

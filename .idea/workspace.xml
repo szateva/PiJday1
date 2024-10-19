@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="Division tests files created.&#10;Division first implementation, not working yet.&#10;&#10;trying to implement division without using / or % but tests are failing.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="implementation logic fixed, all tests passed.&#10;&#10;Note to self:&#10;division had to be done one more when the remainder was = num2">
       <change beforePath="$PROJECT_DIR$/src/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +137,7 @@
       <updated>1729258775805</updated>
       <workItem from="1729258777022" duration="5553000" />
       <workItem from="1729331247213" duration="5122000" />
-      <workItem from="1729342241296" duration="4936000" />
+      <workItem from="1729342241296" duration="5278000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -182,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729345517128</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="implementation logic fixed, all tests passed.&#10;&#10;Note to self:&#10;division had to be done one more when the remainder was = num2">
+      <option name="closed" value="true" />
+      <created>1729348265266</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729348265266</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +201,8 @@
     <MESSAGE value="have created test files for Multiplication&#10;basic implementation for both multiplicand positive &#10;ideas for incorporating negatives" />
     <MESSAGE value="implemented multiplication for negatives. Also separated testing from testing prime, as these are stand-alone exercises not a connected project." />
     <MESSAGE value="Division tests files created.&#10;Division first implementation, not working yet.&#10;&#10;trying to implement division without using / or % but tests are failing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Division tests files created.&#10;Division first implementation, not working yet.&#10;&#10;trying to implement division without using / or % but tests are failing." />
+    <MESSAGE value="implementation logic fixed, all tests passed.&#10;&#10;Note to self:&#10;division had to be done one more when the remainder was = num2" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation logic fixed, all tests passed.&#10;&#10;Note to self:&#10;division had to be done one more when the remainder was = num2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
