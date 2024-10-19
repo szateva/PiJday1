@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="have created test files for Multiplication&#10;basic implementation for both multiplicand positive &#10;ideas for incorporating negatives">
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="implemented multiplication for negatives. Also separated testing from testing prime, as these are stand-alone exercises not a connected project.">
+      <change afterPath="$PROJECT_DIR$/src/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestDivision.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +38,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Division.executor": "Run",
     "Application.Loop2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Prime.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.TestDivision.executor": "Run",
+    "JUnit.TestMultiplication.executor": "Run",
     "JUnit.Tests.executor": "Run",
     "JUnit.Tests.testMultiplication1.executor": "Run",
     "JUnit.Tests.testMultiplication2.executor": "Run",
@@ -63,7 +66,23 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestMultiplication">
+  <component name="RunManager" selected="Application.Division">
+    <configuration name="Division" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Division" />
+      <module name="PiJday1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PiJday1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDivision" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PiJday1" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,26 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testMultiplication1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PiJday1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="testMultiplication1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.testMultiplication2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PiJday1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="testMultiplication2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests.testMultiplication3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PiJday1" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Division" />
+        <item itemvalue="JUnit.TestDivision" />
         <item itemvalue="JUnit.TestMultiplication" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.testMultiplication3" />
-        <item itemvalue="JUnit.Tests.testMultiplication2" />
-        <item itemvalue="JUnit.Tests.testMultiplication1" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +139,7 @@
       <updated>1729258775805</updated>
       <workItem from="1729258777022" duration="5553000" />
       <workItem from="1729331247213" duration="5122000" />
-      <workItem from="1729342241296" duration="378000" />
+      <workItem from="1729342241296" duration="2866000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729334773754</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implemented multiplication for negatives. Also separated testing from testing prime, as these are stand-alone exercises not a connected project.">
+      <option name="closed" value="true" />
+      <created>1729343031041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729343031041</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +185,8 @@
     <MESSAGE value="PiJ day 1 exercises&#10;Prime number comment added" />
     <MESSAGE value="I've tried to create a test file for the original Prime class but got into all sorts of troubles with streams.&#10;Therefore refactored the code in a new class Prime2, separated the testing if a number is prime from the execution and user interaction. This way the tests are simpler, only testing the isPrime Boolean helper function not the messy inputs and outputs." />
     <MESSAGE value="have created test files for Multiplication&#10;basic implementation for both multiplicand positive &#10;ideas for incorporating negatives" />
-    <option name="LAST_COMMIT_MESSAGE" value="have created test files for Multiplication&#10;basic implementation for both multiplicand positive &#10;ideas for incorporating negatives" />
+    <MESSAGE value="implemented multiplication for negatives. Also separated testing from testing prime, as these are stand-alone exercises not a connected project." />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented multiplication for negatives. Also separated testing from testing prime, as these are stand-alone exercises not a connected project." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
