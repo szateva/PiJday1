@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="PiJ day 1 exercises">
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="PiJ day 1 exercises&#10;Prime number comment added">
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Prime2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/notes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiJday1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PiJday1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2nc3w8fIiyPacgghmEEyH98KCUi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,6 +53,11 @@
     "Application.Loop2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Prime.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "true",
+    "JUnit.Tests.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -53,7 +71,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.Tests">
     <configuration name="Loop2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Loop2" />
       <module name="PiJday1" />
@@ -75,8 +93,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PiJday1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Prime" />
         <item itemvalue="Application.Loop2" />
@@ -99,7 +127,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729258775805</updated>
-      <workItem from="1729258777022" duration="5446000" />
+      <workItem from="1729258777022" duration="5553000" />
+      <workItem from="1729331247213" duration="3306000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -109,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729271639227</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PiJ day 1 exercises&#10;Prime number comment added">
+      <option name="closed" value="true" />
+      <created>1729272004294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729272004294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +155,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="PiJ day 1 exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="PiJ day 1 exercises" />
+    <MESSAGE value="PiJ day 1 exercises&#10;Prime number comment added" />
+    <option name="LAST_COMMIT_MESSAGE" value="PiJ day 1 exercises&#10;Prime number comment added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
