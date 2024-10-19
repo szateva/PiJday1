@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="implementation logic fixed, all tests passed.&#10;&#10;Note to self:&#10;division had to be done one more when the remainder was = num2">
-      <change beforePath="$PROJECT_DIR$/src/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Division.java" afterDir="false" />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="remainderDiv refactored, no need to track quotient in this method.">
+      <change afterPath="$PROJECT_DIR$/src/NaiveSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/R1P4ExA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestNaiveSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,7 @@
     "Application.Loop2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Prime.executor": "Run",
+    "Application.R1P4ExA.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.TestDivision.executor": "Run",
     "JUnit.TestMultiplication.executor": "Run",
@@ -64,9 +69,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestDivision">
+  <component name="RunManager" selected="Application.R1P4ExA">
     <configuration name="Division" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Division" />
+      <module name="PiJday1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="R1P4ExA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="R1P4ExA" />
       <module name="PiJday1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,23 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testMultiplication3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PiJday1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="testMultiplication3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.R1P4ExA" />
         <item itemvalue="JUnit.TestDivision" />
         <item itemvalue="Application.Division" />
         <item itemvalue="JUnit.TestMultiplication" />
         <item itemvalue="JUnit.Tests" />
-        <item itemvalue="JUnit.Tests.testMultiplication3" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +139,7 @@
       <updated>1729258775805</updated>
       <workItem from="1729258777022" duration="5553000" />
       <workItem from="1729331247213" duration="5122000" />
-      <workItem from="1729342241296" duration="5278000" />
+      <workItem from="1729342241296" duration="6828000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -187,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729348265266</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="remainderDiv refactored, no need to track quotient in this method.">
+      <option name="closed" value="true" />
+      <created>1729348400070</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729348400070</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +212,8 @@
     <MESSAGE value="implemented multiplication for negatives. Also separated testing from testing prime, as these are stand-alone exercises not a connected project." />
     <MESSAGE value="Division tests files created.&#10;Division first implementation, not working yet.&#10;&#10;trying to implement division without using / or % but tests are failing." />
     <MESSAGE value="implementation logic fixed, all tests passed.&#10;&#10;Note to self:&#10;division had to be done one more when the remainder was = num2" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementation logic fixed, all tests passed.&#10;&#10;Note to self:&#10;division had to be done one more when the remainder was = num2" />
+    <MESSAGE value="remainderDiv refactored, no need to track quotient in this method." />
+    <option name="LAST_COMMIT_MESSAGE" value="remainderDiv refactored, no need to track quotient in this method." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
