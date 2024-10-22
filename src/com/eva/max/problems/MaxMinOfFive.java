@@ -8,11 +8,10 @@ The smallest number is 13
  */
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class MaxOfFive {
+public class MaxMinOfFive {
 
     public static int maxOfFive(List<Integer> numbers) {
         int max = 0;
@@ -24,6 +23,16 @@ public class MaxOfFive {
         }
         return max;
     }
+    public static int minOfFive(List<Integer> numbers) {
+        int min = numbers.get(0);
+        for (int i = 0; i < numbers.size(); i++) {
+            if (numbers.get(i) < min) {
+                min = numbers.get(i);
+            }
+        }
+        return min;
+    }
+
 
     public static void main(String[] args) {
         List<Integer> numbers = new ArrayList<Integer>();
@@ -37,6 +46,7 @@ public class MaxOfFive {
         }
 
         System.out.println("The largest in the list is: " + maxOfFive(numbers));
+        System.out.println("The smallest in the list is: " + minOfFive(numbers));
     }
 }
 

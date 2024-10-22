@@ -4,35 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="NaiveSort takes in 3 positive numbers and print them to screen in ascending order.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eva/max/problems/MaxOfFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eva/max/problems/Maximising.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eva/notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/TestDivision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/TestMaxOfFive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/TestNaiveSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/TestR1P4ExB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/Tests.java" afterDir="false" />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="organized the problems into packages. Created a list version of the max of 5 numbers problem.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Loop2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NaiveSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/NaiveSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NaiveSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Prime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Prime2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Prime2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/R1P4ExA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/R1P4ExA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/R1P4ExB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/max/problems/R1P4ExB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/R1P4ExE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/R1P4ExE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestDivision.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/tests/TestMultiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestNaiveSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestNaiveSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/tests/TestNaiveSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestR1P4ExB.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/max/problems/MaxOfFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/max/problems/MaxMinOfFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/tests/TestMaxOfFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/tests/TestMaxMinOfFive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +41,7 @@
     "Application.Division.executor": "Run",
     "Application.Loop2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxMinOfFive.executor": "Run",
     "Application.MaxOfFive.executor": "Run",
     "Application.NaiveSort.executor": "Run",
     "Application.Prime.executor": "Run",
@@ -74,6 +50,8 @@
     "Application.R1P4ExE.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.TestDivision.executor": "Run",
+    "JUnit.TestMaxMinOfFive.executor": "Run",
+    "JUnit.TestMaxOfFive.executor": "Run",
     "JUnit.TestMultiplication.executor": "Run",
     "JUnit.TestR1P4ExB.executor": "Run",
     "JUnit.Tests.executor": "Run",
@@ -103,9 +81,9 @@
       <recent name="C:\Users\Eva Work\IdeaProjects\PiJday1\src\com\eva" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxOfFive">
-    <configuration name="MaxOfFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eva.max.problems.MaxOfFive" />
+  <component name="RunManager" selected="JUnit.TestMaxMinOfFive">
+    <configuration name="MaxMinOfFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eva.max.problems.MaxMinOfFive" />
       <module name="PiJday1" />
       <extension name="coverage">
         <pattern>
@@ -138,10 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestR1P4ExB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMaxMinOfFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PiJday1" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestR1P4ExB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eva.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eva.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.eva.tests.TestMaxMinOfFive" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaxOfFive" />
+        <item itemvalue="JUnit.TestMaxMinOfFive" />
+        <item itemvalue="Application.MaxMinOfFive" />
         <item itemvalue="Application.R1P4ExB" />
         <item itemvalue="Application.NaiveSort" />
         <item itemvalue="Application.R1P4ExE" />
-        <item itemvalue="JUnit.TestR1P4ExB" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +163,7 @@
       <workItem from="1729358179171" duration="559000" />
       <workItem from="1729358773164" duration="3453000" />
       <workItem from="1729590834981" duration="3511000" />
-      <workItem from="1729611852336" duration="5000000" />
+      <workItem from="1729611852336" duration="5722000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -269,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729594247966</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="organized the problems into packages. Created a list version of the max of 5 numbers problem.">
+      <option name="closed" value="true" />
+      <created>1729633273726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1729633273726</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +281,8 @@
     <MESSAGE value="created a class to calculate the max of 5 nos, with the help of a method and the Math.max() method. Created tests too. All passed." />
     <MESSAGE value="PiJ Reading day 1 Part 4 Exercise E.&#10;Counting how many numbers the user inputting. &#10;Code works, but I wasn't sure how to test the code." />
     <MESSAGE value="NaiveSort takes in 3 positive numbers and print them to screen in ascending order." />
-    <option name="LAST_COMMIT_MESSAGE" value="NaiveSort takes in 3 positive numbers and print them to screen in ascending order." />
+    <MESSAGE value="organized the problems into packages. Created a list version of the max of 5 numbers problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="organized the problems into packages. Created a list version of the max of 5 numbers problem." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

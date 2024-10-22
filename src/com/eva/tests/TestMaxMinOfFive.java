@@ -1,16 +1,16 @@
 package com.eva.tests;
 
-import com.eva.max.problems.MaxOfFive;
+import com.eva.max.problems.MaxMinOfFive;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TestMaxOfFive {
+public class TestMaxMinOfFive {
 
     @Test
-    public void testMaxOfFive() {
+    public void testMaxMinOfFive() {
 
         // GIVEN
         List<Integer> numbers = new ArrayList<Integer>();
@@ -21,10 +21,12 @@ public class TestMaxOfFive {
         numbers.add(5);
 
         // WHEN
-        Integer max = MaxOfFive.maxOfFive(numbers);
+        Integer max = MaxMinOfFive.maxOfFive(numbers);
+        Integer min = MaxMinOfFive.minOfFive(numbers);
 
         // THEN
         Assertions.assertEquals(5, max);
+        Assertions.assertEquals(1, min);
 
     }
 
