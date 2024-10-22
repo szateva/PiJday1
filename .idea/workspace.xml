@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="refactored MaxOfFive to include the max and min of the 5 numbers. Renamed classes and test files accordingly.&#10;Included min tests in the relevant test files.">
-      <change afterPath="$PROJECT_DIR$/src/com/eva/wloop/GoingUp.java" afterDir="false" />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="renamed classes to something more meaningful.&#10;updated first version of MaxOfFive to include min and renamed file accordingly">
+      <change afterPath="$PROJECT_DIR$/src/com/eva/wloop/HighLow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/wloop/SquareNos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/maths/problems/SquareNos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
       <module name="PiJday1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eva.wloop.*" />
+          <option name="PATTERN" value="com.eva.maths.problems.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,7 +171,7 @@
       <workItem from="1729358179171" duration="559000" />
       <workItem from="1729358773164" duration="3453000" />
       <workItem from="1729590834981" duration="3511000" />
-      <workItem from="1729611852336" duration="7596000" />
+      <workItem from="1729611852336" duration="8963000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -275,7 +277,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729633865790</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="going up solved, seems to work, no test files.">
+      <option name="closed" value="true" />
+      <created>1729635869974</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1729635869974</updated>
+    </task>
+    <task id="LOCAL-00015" summary="renamed classes to something more meaningful.&#10;updated first version of MaxOfFive to include min and renamed file accordingly">
+      <option name="closed" value="true" />
+      <created>1729636427904</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1729636427904</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +315,9 @@
     <MESSAGE value="NaiveSort takes in 3 positive numbers and print them to screen in ascending order." />
     <MESSAGE value="organized the problems into packages. Created a list version of the max of 5 numbers problem." />
     <MESSAGE value="refactored MaxOfFive to include the max and min of the 5 numbers. Renamed classes and test files accordingly.&#10;Included min tests in the relevant test files." />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored MaxOfFive to include the max and min of the 5 numbers. Renamed classes and test files accordingly.&#10;Included min tests in the relevant test files." />
+    <MESSAGE value="going up solved, seems to work, no test files." />
+    <MESSAGE value="renamed classes to something more meaningful.&#10;updated first version of MaxOfFive to include min and renamed file accordingly" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed classes to something more meaningful.&#10;updated first version of MaxOfFive to include min and renamed file accordingly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
