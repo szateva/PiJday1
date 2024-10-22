@@ -4,7 +4,7 @@ you have keyed in (other than the last 0). For example, if you keyed in the numb
 -945, 12, 0 it would output \You have entered 6 numbers.".
  */
 
-public class R1P4ExE {
+public class CountInput {
     public static void main(String[] args) {
         java.util.Scanner scan = new java.util.Scanner(System.in);
         int totalNumbers = 0;

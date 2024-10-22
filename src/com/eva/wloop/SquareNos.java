@@ -3,7 +3,7 @@ Write a program that outputs the squares of all the numbers from 1 to 10, i.e., 
 numbers 1, 4, 9, 16 and so on up to 100.
  */
 
-public class R1P4ExA {
+public class SquareNos {
     public static void main(String[] args) {
         int num = 0;
         int square = 0;

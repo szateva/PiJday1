@@ -7,10 +7,13 @@ The smallest number is 13
 
 import java.util.Scanner;
 
-public class R1P4ExB {
+public class MaxMinOf5 {
 
     public static int maxOfFive(int a, int b, int c, int d, int e) {
         return Math.max(a, Math.max(b, Math.max(c, Math.max(d, e))));
+    }
+    public static int minOfFive(int a, int b, int c, int d, int e) {
+        return Math.min(a, Math.min(b, Math.max(c, Math.max(d, e))));
     }
 
     public static void main(String[] args) {
@@ -29,9 +32,9 @@ public class R1P4ExB {
         int num5 = scan.nextInt();
 
         System.out.println("The max of " + num1 + ", " + num2 + ", " + num3 + ", " + num4 + ", " + num5 + " is " + maxOfFive(num1, num2, num3, num4, num5));
-        System.out.println(String.format("The max of %d, %d, %d, %d, %d is %d", num1, num2, num3, num4, num5, maxOfFive(num1, num2, num3, num4, num5)));
-
-
+        System.out.printf("The max of %d, %d, %d, %d, %d is %d%n", num1, num2, num3, num4, num5, maxOfFive(num1, num2, num3, num4, num5));
+        System.out.println("The min of " + num1 + ", " + num2 + ", " + num3 + ", " + num4 + ", " + num5 + " is " + minOfFive(num1, num2, num3, num4, num5));
+        System.out.printf("The min of %d, %d, %d, %d, %d is %d%n", num1, num2, num3, num4, num5, minOfFive(num1, num2, num3, num4, num5));
 
     }
 }
