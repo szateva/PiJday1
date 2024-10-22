@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="organized the problems into packages. Created a list version of the max of 5 numbers problem.">
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="refactored MaxOfFive to include the max and min of the 5 numbers. Renamed classes and test files accordingly.&#10;Included min tests in the relevant test files.">
+      <change afterPath="$PROJECT_DIR$/src/com/eva/wloop/GoingUp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eva/max/problems/MaxOfFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/max/problems/MaxMinOfFive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eva/tests/TestMaxOfFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/tests/TestMaxMinOfFive.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Division.executor": "Run",
+    "Application.GoingUp.executor": "Run",
     "Application.Loop2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxMinOfFive.executor": "Run",
@@ -81,7 +81,20 @@
       <recent name="C:\Users\Eva Work\IdeaProjects\PiJday1\src\com\eva" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMaxMinOfFive">
+  <component name="RunManager" selected="Application.GoingUp">
+    <configuration name="GoingUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eva.wloop.GoingUp" />
+      <module name="PiJday1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eva.wloop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxMinOfFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eva.max.problems.MaxMinOfFive" />
       <module name="PiJday1" />
@@ -109,13 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="R1P4ExE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="R1P4ExE" />
-      <module name="PiJday1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMaxMinOfFive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PiJday1" />
       <extension name="coverage">
@@ -133,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoingUp" />
         <item itemvalue="JUnit.TestMaxMinOfFive" />
         <item itemvalue="Application.MaxMinOfFive" />
         <item itemvalue="Application.R1P4ExB" />
         <item itemvalue="Application.NaiveSort" />
-        <item itemvalue="Application.R1P4ExE" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +169,7 @@
       <workItem from="1729358179171" duration="559000" />
       <workItem from="1729358773164" duration="3453000" />
       <workItem from="1729590834981" duration="3511000" />
-      <workItem from="1729611852336" duration="5722000" />
+      <workItem from="1729611852336" duration="7596000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -261,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729633273726</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactored MaxOfFive to include the max and min of the 5 numbers. Renamed classes and test files accordingly.&#10;Included min tests in the relevant test files.">
+      <option name="closed" value="true" />
+      <created>1729633865790</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1729633865790</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +296,8 @@
     <MESSAGE value="PiJ Reading day 1 Part 4 Exercise E.&#10;Counting how many numbers the user inputting. &#10;Code works, but I wasn't sure how to test the code." />
     <MESSAGE value="NaiveSort takes in 3 positive numbers and print them to screen in ascending order." />
     <MESSAGE value="organized the problems into packages. Created a list version of the max of 5 numbers problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="organized the problems into packages. Created a list version of the max of 5 numbers problem." />
+    <MESSAGE value="refactored MaxOfFive to include the max and min of the 5 numbers. Renamed classes and test files accordingly.&#10;Included min tests in the relevant test files." />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored MaxOfFive to include the max and min of the 5 numbers. Renamed classes and test files accordingly.&#10;Included min tests in the relevant test files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
