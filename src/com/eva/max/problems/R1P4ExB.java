@@ -1,5 +1,4 @@
-
-/*
+package com.eva.max.problems;/*
 Write a program that asks the user to type in 5 numbers, and that outputs the largest of these numbers and the smallest
 of these numbers. So, for example, if the user types in the numbers 2456 457 13 999 35, the output will be as follows:
 The largest number is 2456

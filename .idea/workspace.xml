@@ -4,10 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="PiJ Reading day 1 Part 4 Exercise E.&#10;Counting how many numbers the user inputting. &#10;Code works, but I wasn't sure how to test the code.">
-      <change afterPath="$PROJECT_DIR$/src/NaiveSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestNaiveSort.java" afterDir="false" />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="NaiveSort takes in 3 positive numbers and print them to screen in ascending order.">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/max/problems/MaxOfFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/max/problems/Maximising.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/TestDivision.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/TestMaxOfFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/TestNaiveSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/TestR1P4ExB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/tests/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Division.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Loop2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Loop2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NaiveSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/NaiveSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NaiveSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Prime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Prime2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/Prime2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/R1P4ExA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/R1P4ExA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/R1P4ExB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/max/problems/R1P4ExB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/R1P4ExE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/R1P4ExE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestDivision.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestMultiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/tests/TestMultiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestNaiveSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestNaiveSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/tests/TestNaiveSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestR1P4ExB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/notes" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +66,7 @@
     "Application.Division.executor": "Run",
     "Application.Loop2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxOfFive.executor": "Run",
     "Application.NaiveSort.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.R1P4ExA.executor": "Run",
@@ -58,6 +84,7 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -71,7 +98,25 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NaiveSort">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eva Work\IdeaProjects\PiJday1\src\com\eva" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MaxOfFive">
+    <configuration name="MaxOfFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eva.max.problems.MaxOfFive" />
+      <module name="PiJday1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eva.max.problems.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NaiveSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NaiveSort" />
       <module name="PiJday1" />
@@ -79,15 +124,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="R1P4ExA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="R1P4ExA" />
-      <module name="PiJday1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="R1P4ExB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="R1P4ExB" />
+      <option name="MAIN_CLASS_NAME" value="maximizing.problems.R1P4ExB" />
       <module name="PiJday1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,8 +140,8 @@
     </configuration>
     <configuration name="TestR1P4ExB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PiJday1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestR1P4ExB" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestR1P4ExB" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxOfFive" />
+        <item itemvalue="Application.R1P4ExB" />
         <item itemvalue="Application.NaiveSort" />
         <item itemvalue="Application.R1P4ExE" />
         <item itemvalue="JUnit.TestR1P4ExB" />
-        <item itemvalue="Application.R1P4ExB" />
-        <item itemvalue="Application.R1P4ExA" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +178,8 @@
       <workItem from="1729342241296" duration="6951000" />
       <workItem from="1729358179171" duration="559000" />
       <workItem from="1729358773164" duration="3453000" />
-      <workItem from="1729590834981" duration="2153000" />
+      <workItem from="1729590834981" duration="3511000" />
+      <workItem from="1729611852336" duration="5000000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -222,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729591738190</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="NaiveSort takes in 3 positive numbers and print them to screen in ascending order.">
+      <option name="closed" value="true" />
+      <created>1729594247966</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729594247966</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,13 +288,14 @@
     <MESSAGE value="implemented a while loop to calculate the square numbers up to 100." />
     <MESSAGE value="created a class to calculate the max of 5 nos, with the help of a method and the Math.max() method. Created tests too. All passed." />
     <MESSAGE value="PiJ Reading day 1 Part 4 Exercise E.&#10;Counting how many numbers the user inputting. &#10;Code works, but I wasn't sure how to test the code." />
-    <option name="LAST_COMMIT_MESSAGE" value="PiJ Reading day 1 Part 4 Exercise E.&#10;Counting how many numbers the user inputting. &#10;Code works, but I wasn't sure how to test the code." />
+    <MESSAGE value="NaiveSort takes in 3 positive numbers and print them to screen in ascending order." />
+    <option name="LAST_COMMIT_MESSAGE" value="NaiveSort takes in 3 positive numbers and print them to screen in ascending order." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/com/eva/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

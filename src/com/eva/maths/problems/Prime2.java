@@ -1,3 +1,5 @@
+package com.eva.maths.problems;
+
 import java.util.Scanner;
 
 public class Prime2 {
