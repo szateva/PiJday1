@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="implemented a while loop to calculate the square numbers up to 100.">
-      <change afterPath="$PROJECT_DIR$/src/R1P4ExB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestR1P4ExB.java" afterDir="false" />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="created a class to calculate the max of 5 nos, with the help of a method and the Math.max() method. Created tests too. All passed.">
+      <change afterPath="$PROJECT_DIR$/src/R1P4ExE.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,7 @@
     "Application.Prime.executor": "Run",
     "Application.R1P4ExA.executor": "Run",
     "Application.R1P4ExB.executor": "Run",
+    "Application.R1P4ExE.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.TestDivision.executor": "Run",
     "JUnit.TestMultiplication.executor": "Run",
@@ -69,14 +69,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestR1P4ExB">
-    <configuration name="Division" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Division" />
-      <module name="PiJday1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.R1P4ExE">
     <configuration name="R1P4ExA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="R1P4ExA" />
       <module name="PiJday1" />
@@ -86,6 +79,13 @@
     </configuration>
     <configuration name="R1P4ExB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="R1P4ExB" />
+      <module name="PiJday1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="R1P4ExE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="R1P4ExE" />
       <module name="PiJday1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.R1P4ExE" />
         <item itemvalue="JUnit.TestR1P4ExB" />
         <item itemvalue="Application.R1P4ExB" />
         <item itemvalue="Application.R1P4ExA" />
         <item itemvalue="JUnit.TestDivision" />
-        <item itemvalue="Application.Division" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,8 @@
       <workItem from="1729331247213" duration="5122000" />
       <workItem from="1729342241296" duration="6951000" />
       <workItem from="1729358179171" duration="559000" />
-      <workItem from="1729358773164" duration="668000" />
+      <workItem from="1729358773164" duration="3453000" />
+      <workItem from="1729590834981" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -205,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729349964372</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="created a class to calculate the max of 5 nos, with the help of a method and the Math.max() method. Created tests too. All passed.">
+      <option name="closed" value="true" />
+      <created>1729359789847</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729359789847</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +231,8 @@
     <MESSAGE value="implementation logic fixed, all tests passed.&#10;&#10;Note to self:&#10;division had to be done one more when the remainder was = num2" />
     <MESSAGE value="remainderDiv refactored, no need to track quotient in this method." />
     <MESSAGE value="implemented a while loop to calculate the square numbers up to 100." />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented a while loop to calculate the square numbers up to 100." />
+    <MESSAGE value="created a class to calculate the max of 5 nos, with the help of a method and the Math.max() method. Created tests too. All passed." />
+    <option name="LAST_COMMIT_MESSAGE" value="created a class to calculate the max of 5 nos, with the help of a method and the Math.max() method. Created tests too. All passed." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
