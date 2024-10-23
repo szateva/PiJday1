@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="wrote a code that print to the screen all the primes up to 1000. Used Prime2's isPrime method.">
-      <change beforePath="$PROJECT_DIR$/src/com/eva/maths/problems/OneThousandPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/maths/problems/OneThousandPrimes.java" afterDir="false" />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="modified the end of while as the printing went on to the 1001st prime (zero indexing!)&#10;Also, num initialized to 0 for consistency.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/wloop/NumberPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/wloop/NumberPyramid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,7 @@
     "Application.MaxMinOfFive.executor": "Run",
     "Application.MaxOfFive.executor": "Run",
     "Application.NaiveSort.executor": "Run",
+    "Application.NumberPyramid.executor": "Run",
     "Application.OneThousandPrimes.executor": "Run",
     "Application.Prime.executor": "Run",
     "Application.PrimesTo1000.executor": "Run",
@@ -82,7 +85,7 @@
       <recent name="C:\Users\Eva Work\IdeaProjects\PiJday1\src\com\eva" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OneThousandPrimes">
+  <component name="RunManager" selected="Application.NumberPyramid">
     <configuration name="GoingUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eva.wloop.GoingUp" />
       <module name="PiJday1" />
@@ -96,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxMinOfFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eva.max.problems.MaxMinOfFive" />
+    <configuration name="NumberPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eva.wloop.NumberPyramid" />
       <module name="PiJday1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eva.max.problems.*" />
+          <option name="PATTERN" value="com.eva.wloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberPyramid" />
         <item itemvalue="Application.OneThousandPrimes" />
         <item itemvalue="Application.PrimesTo1000" />
         <item itemvalue="Application.GoingUp" />
         <item itemvalue="JUnit.TestMaxMinOfFive" />
-        <item itemvalue="Application.MaxMinOfFive" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +187,7 @@
       <workItem from="1729590834981" duration="3511000" />
       <workItem from="1729611852336" duration="9191000" />
       <workItem from="1729637251904" duration="30000" />
-      <workItem from="1729719089748" duration="1605000" />
+      <workItem from="1729719089748" duration="3369000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -322,7 +325,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729720461109</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Printing to screen the first 1000 primes using Prime2's isPrime method">
+      <option name="closed" value="true" />
+      <created>1729720969706</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1729720969706</updated>
+    </task>
+    <task id="LOCAL-00019" summary="modified the end of while as the printing went on to the 1001st prime (zero indexing!)&#10;Also, num initialized to 0 for consistency.">
+      <option name="closed" value="true" />
+      <created>1729721389969</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1729721389969</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +367,9 @@
     <MESSAGE value="renamed classes to something more meaningful.&#10;updated first version of MaxOfFive to include min and renamed file accordingly" />
     <MESSAGE value="started on HighLow, some ideas written as a TODO." />
     <MESSAGE value="wrote a code that print to the screen all the primes up to 1000. Used Prime2's isPrime method." />
-    <option name="LAST_COMMIT_MESSAGE" value="wrote a code that print to the screen all the primes up to 1000. Used Prime2's isPrime method." />
+    <MESSAGE value="Printing to screen the first 1000 primes using Prime2's isPrime method" />
+    <MESSAGE value="modified the end of while as the printing went on to the 1001st prime (zero indexing!)&#10;Also, num initialized to 0 for consistency." />
+    <option name="LAST_COMMIT_MESSAGE" value="modified the end of while as the printing went on to the 1001st prime (zero indexing!)&#10;Also, num initialized to 0 for consistency." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

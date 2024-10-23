@@ -15,12 +15,12 @@ Ctrl-C to stop the program).
 that bothers you, move on to the second and harder part of this exercise).
  */
 
-import java.util.Scanner;
 
 public class NumberPyramid {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println();
+        while (true) {
+            System.out.println("infinite loop");
+        }
     }
 }
