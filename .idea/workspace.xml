@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="GuessMyNumber works">
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="HighLow solved, modified GoingUp but separated user interaction and methods.">
+      <change afterPath="$PROJECT_DIR$/src/com/eva/games/RockPaperScissors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eva/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/notes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eva/wloop/GoingUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/wloop/GoingUp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/eva/wloop/HighLow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/wloop/HighLow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
     "Application.R1P4ExA.executor": "Run",
     "Application.R1P4ExB.executor": "Run",
     "Application.R1P4ExE.executor": "Run",
+    "Application.RockPaperScissors.executor": "Run",
     "Downloaded.Files.Path.Enabled": "true",
     "JUnit.TestDivision.executor": "Run",
     "JUnit.TestMaxMinOfFive.executor": "Run",
@@ -89,7 +88,7 @@
       <recent name="C:\Users\Eva Work\IdeaProjects\PiJday1\src\com\eva" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberPyramid">
+  <component name="RunManager" selected="Application.RockPaperScissors">
     <configuration name="GuessMyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.eva.games.GuessMyNumber" />
       <module name="PiJday1" />
@@ -142,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimesTo1000" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eva.maths.problems.PrimesTo1000" />
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eva.games.RockPaperScissors" />
       <module name="PiJday1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eva.maths.problems.*" />
+          <option name="PATTERN" value="com.eva.games.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RockPaperScissors" />
         <item itemvalue="Application.NumberPyramid" />
         <item itemvalue="Application.HighLow" />
         <item itemvalue="Application.GuessMyNumber" />
         <item itemvalue="Application.OneThousandPrimes" />
-        <item itemvalue="Application.PrimesTo1000" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +189,8 @@
       <workItem from="1729611852336" duration="9191000" />
       <workItem from="1729637251904" duration="30000" />
       <workItem from="1729719089748" duration="5519000" />
-      <workItem from="1729784883272" duration="4032000" />
+      <workItem from="1729784883272" duration="4772000" />
+      <workItem from="1729805324206" duration="1164000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -360,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729724377170</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="HighLow solved, modified GoingUp but separated user interaction and methods.">
+      <option name="closed" value="true" />
+      <created>1729789049430</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1729789049431</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +398,8 @@
     <MESSAGE value="modified the end of while as the printing went on to the 1001st prime (zero indexing!)&#10;Also, num initialized to 0 for consistency." />
     <MESSAGE value="tried solving NumberPyramid, no luck yet." />
     <MESSAGE value="GuessMyNumber works" />
-    <option name="LAST_COMMIT_MESSAGE" value="GuessMyNumber works" />
+    <MESSAGE value="HighLow solved, modified GoingUp but separated user interaction and methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="HighLow solved, modified GoingUp but separated user interaction and methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
