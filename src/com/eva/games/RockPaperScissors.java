@@ -28,7 +28,7 @@ public class RockPaperScissors {
             String outcome = scanner.nextLine();
             if (outcome.equals("PR") || outcome.equals("RS") || outcome.equals("SP")) {
                 player1Score++;
-            } else if (outcome.equals("RP") || outcome.equals("SR")) {
+            } else if (outcome.equals("RP") || outcome.equals("SR")|| outcome.equals("PS")) {
                 player2Score++;
             }
         }
