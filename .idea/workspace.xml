@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="GuessMyNumber works">
-      <change afterPath="$PROJECT_DIR$/src/com/eva/games/GuessMyNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/wloop/GoingUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/wloop/GoingUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/wloop/HighLow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/wloop/HighLow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +42,7 @@
     "Application.Division.executor": "Run",
     "Application.GoingUp.executor": "Run",
     "Application.GuessMyNumber.executor": "Run",
+    "Application.HighLow.executor": "Run",
     "Application.Loop2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaxMinOfFive.executor": "Run",
@@ -67,6 +70,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "extract.method.default.visibility": "private",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -76,7 +80,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/Eva Work/IdeaProjects/PiJday1/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,13 +89,13 @@
       <recent name="C:\Users\Eva Work\IdeaProjects\PiJday1\src\com\eva" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessMyNumber">
-    <configuration name="GoingUp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eva.wloop.GoingUp" />
+  <component name="RunManager" selected="Application.NumberPyramid">
+    <configuration name="GuessMyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eva.games.GuessMyNumber" />
       <module name="PiJday1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eva.maths.problems.*" />
+          <option name="PATTERN" value="com.eva.games.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessMyNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.eva.games.GuessMyNumber" />
+    <configuration name="HighLow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eva.wloop.HighLow" />
       <module name="PiJday1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.eva.games.*" />
+          <option name="PATTERN" value="com.eva.wloop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessMyNumber" />
         <item itemvalue="Application.NumberPyramid" />
+        <item itemvalue="Application.HighLow" />
+        <item itemvalue="Application.GuessMyNumber" />
         <item itemvalue="Application.OneThousandPrimes" />
         <item itemvalue="Application.PrimesTo1000" />
-        <item itemvalue="Application.GoingUp" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +189,8 @@
       <workItem from="1729590834981" duration="3511000" />
       <workItem from="1729611852336" duration="9191000" />
       <workItem from="1729637251904" duration="30000" />
-      <workItem from="1729719089748" duration="5085000" />
+      <workItem from="1729719089748" duration="5519000" />
+      <workItem from="1729784883272" duration="4032000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -347,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729722692246</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="GuessMyNumber works">
+      <option name="closed" value="true" />
+      <created>1729724377170</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1729724377170</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,5 +402,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

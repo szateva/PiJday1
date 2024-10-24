@@ -34,17 +34,18 @@ public class GoingUp {
             } else {
                 finished = true;
             }
+            num = nextNum;
 
         }
         boolean goingUp = true;
-        for (int i = 0; i < order.size(); i++) {
-            if (order.get(i).equals("No")) {
+        for (String s : order) {
+            if (s.equals("No")) {
                 goingUp = false;
             }
         }
         if (goingUp) {
             System.out.println("Yes");
-        }else {
+        } else {
             System.out.println("No");
         }
     }
