@@ -1,0 +1,19 @@
+- how does the enhanced for loop work, what is the syntax and what is the advantage?
+for(String name : nameList)
+for(int i = 0; i < nameList.size, i++){
+    nameList.get(i);
+}
+pro: short, concise
+con: only when iterating through the whole variable one by one, cannot compare two within the list
+
+Class.method()
+- calling from outside the class and method is static
+
+method()
+- inside the Class where we want to use it
+
+Class class = new Class()
+class.method()
+- calling from outside the class and method is NOT static
+
+if method() has parameters, they need to be provided

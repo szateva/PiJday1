@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="HighLow solved, modified GoingUp but separated user interaction and methods.">
-      <change afterPath="$PROJECT_DIR$/src/com/eva/games/RockPaperScissors.java" afterDir="false" />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="Rock, Paper, Scissors seems to work.&#10;Didn't use string.split()&#10;Maybe do another version with using the split() method?&#10;How can I test it?">
+      <change afterPath="$PROJECT_DIR$/src/ToRemember" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/notes" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +191,7 @@
       <workItem from="1729637251904" duration="30000" />
       <workItem from="1729719089748" duration="5519000" />
       <workItem from="1729784883272" duration="4772000" />
-      <workItem from="1729805324206" duration="1164000" />
+      <workItem from="1729805324206" duration="2152000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -368,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729789049431</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Rock, Paper, Scissors seems to work.&#10;Didn't use string.split()&#10;Maybe do another version with using the split() method?&#10;How can I test it?">
+      <option name="closed" value="true" />
+      <created>1729806908288</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729806908288</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +408,8 @@
     <MESSAGE value="tried solving NumberPyramid, no luck yet." />
     <MESSAGE value="GuessMyNumber works" />
     <MESSAGE value="HighLow solved, modified GoingUp but separated user interaction and methods." />
-    <option name="LAST_COMMIT_MESSAGE" value="HighLow solved, modified GoingUp but separated user interaction and methods." />
+    <MESSAGE value="Rock, Paper, Scissors seems to work.&#10;Didn't use string.split()&#10;Maybe do another version with using the split() method?&#10;How can I test it?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rock, Paper, Scissors seems to work.&#10;Didn't use string.split()&#10;Maybe do another version with using the split() method?&#10;How can I test it?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
