@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="I have separated my questions from the topics that had been discussed and now needs to be remembered." />
+    <list default="true" id="b023f561-4143-4a7b-a334-29b8b61788ff" name="Changes" comment="Noticed mistake in Rock, Papers, Scissors, one of the || for player2 score was missing.">
+      <change afterPath="$PROJECT_DIR$/src/com/eva/maths/problems/OptimusPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/eva/maths/problems/Pi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/eva/notes" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/eva/notes" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +192,7 @@
       <workItem from="1729637251904" duration="30000" />
       <workItem from="1729719089748" duration="5519000" />
       <workItem from="1729784883272" duration="4772000" />
-      <workItem from="1729805324206" duration="2887000" />
+      <workItem from="1729805324206" duration="3754000" />
     </task>
     <task id="LOCAL-00001" summary="PiJ day 1 exercises">
       <option name="closed" value="true" />
@@ -381,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729807711206</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Noticed mistake in Rock, Papers, Scissors, one of the || for player2 score was missing.">
+      <option name="closed" value="true" />
+      <created>1729808417315</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729808417315</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +402,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="PiJ day 1 exercises" />
     <MESSAGE value="PiJ day 1 exercises&#10;Prime number comment added" />
     <MESSAGE value="I've tried to create a test file for the original Prime class but got into all sorts of troubles with streams.&#10;Therefore refactored the code in a new class Prime2, separated the testing if a number is prime from the execution and user interaction. This way the tests are simpler, only testing the isPrime Boolean helper function not the messy inputs and outputs." />
     <MESSAGE value="have created test files for Multiplication&#10;basic implementation for both multiplicand positive &#10;ideas for incorporating negatives" />
@@ -414,7 +426,8 @@
     <MESSAGE value="HighLow solved, modified GoingUp but separated user interaction and methods." />
     <MESSAGE value="Rock, Paper, Scissors seems to work.&#10;Didn't use string.split()&#10;Maybe do another version with using the split() method?&#10;How can I test it?" />
     <MESSAGE value="I have separated my questions from the topics that had been discussed and now needs to be remembered." />
-    <option name="LAST_COMMIT_MESSAGE" value="I have separated my questions from the topics that had been discussed and now needs to be remembered." />
+    <MESSAGE value="Noticed mistake in Rock, Papers, Scissors, one of the || for player2 score was missing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Noticed mistake in Rock, Papers, Scissors, one of the || for player2 score was missing." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
